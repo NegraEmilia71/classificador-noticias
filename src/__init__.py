@@ -4,4 +4,4 @@ Módulo principal do sistema de classificação de notícias brasileiras.
 """
 
 __version__ = "1.0.0"
-__author__ = "Seu Nome"
+__author__ = "Joyce Emília O Mota"
