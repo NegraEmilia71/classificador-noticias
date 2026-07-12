@@ -26,24 +26,30 @@ O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kagg
 
 ## 📁 Estrutura do Projeto
 classificador-noticias/
-├── data/ # Dados do projeto
-│ └── raw/ # Dataset original
-├── notebooks/ # Análises exploratórias
-│ └── eda.ipynb # Notebook de EDA
-├── src/ # Código fonte
-│ ├── preprocessing/ # Processamento de texto
-│ │ └── text_processor.py # Limpeza e tokenização
-│ ├── models/ # Modelos de ML
-│ │ ├── classifier.py # Classificador principal
-│ │ └── train_model.py # Script de treinamento
-│ └── api/ # API REST
-│ └── main.py # FastAPI application
-├── tests/ # Testes unitários
-│ └── test_api.py # Testes da API
-├── Dockerfile # Container Docker
-├── docker-compose.yml # Orquestração
-├── requirements.txt # Dependências
-└── README.md # Este arquivo
+├── data/
+│   └── raw/                    # Dataset original
+├── notebooks/
+│   └── eda.ipynb              # Análise exploratória
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing/
+│   │   ├── __init__.py
+│   │   └── text_processor.py  # Limpeza de texto
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_model.py     # Treinamento do modelo
+│   │   └── classifier.py      # Classe do classificador
+│   └── api/
+│       ├── __init__.py
+│       └── main.py            # API FastAPI
+├── tests/
+│   ├── __init__.py
+│   └── test_api.py            # Testes da API
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## 🚀 Quick Start
 
