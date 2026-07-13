@@ -1,0 +1,5 @@
+Acurácia: 0.6419
+F1-Score Macro: 0.2583
+F1-Score Ponderado: 0.6186
+
+Categorias suportadas: 41
