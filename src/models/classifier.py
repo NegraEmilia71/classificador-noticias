@@ -211,4 +211,7 @@ class NewsClassifier:
         print(f"📚 Categorias suportadas: {len(classifier.classes_)}")
         
         return classifier
+<<<<<<< HEAD
     
+=======
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb

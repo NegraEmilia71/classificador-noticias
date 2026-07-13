@@ -1,4 +1,5 @@
 # Core
+<<<<<<< HEAD
 numpy>=1.24.0
 pandas>=2.0.0
 scikit-learn>=1.3.0
@@ -29,3 +30,36 @@ requests>=2.31.0
 # Testes
 pytest>=7.4.0
 httpx>=0.24.0
+=======
+python==3.9
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# NLP e Texto
+nltk==3.8.1
+spacy==3.6.1
+unidecode==1.3.6
+beautifulsoup4==4.12.2
+
+# API
+fastapi==0.100.0
+uvicorn==0.23.1
+pydantic==2.0.3
+
+# Visualização
+matplotlib==3.7.2
+seaborn==0.12.2
+wordcloud==1.9.2
+plotly==5.15.0
+
+# Utilitários
+joblib==1.3.1
+tqdm==4.65.0
+python-multipart==0.0.6
+requests==2.31.0
+
+# Testes
+pytest==7.4.0
+httpx==0.24.1
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb

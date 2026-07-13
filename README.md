@@ -2,6 +2,7 @@
 
 API inteligente para classificação automática de notícias brasileiras usando Machine Learning.
 
+<<<<<<< HEAD
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3+-orange.svg)](https://scikit-learn.org/)
@@ -31,11 +32,22 @@ O sistema consiste em um classificador de notícias que utiliza técnicas de Pro
 - **Pandas** - Manipulação de dados
 - **Uvicorn** - Servidor ASGI
 - **Pydantic** - Validação de dados
+=======
+## 🎯 Visão Geral
+
+Sistema completo de classificação de notícias que utiliza Processamento de Linguagem Natural (NLP) e Machine Learning para categorizar automaticamente notícias brasileiras baseado em seus títulos. O projeto inclui:
+
+- **Pipeline de Treinamento**: Scripts para treinar e avaliar modelos
+- **API REST**: Interface para classificação em tempo real
+- **Containerização**: Docker para deploy simplificado
+- **Documentação**: Swagger/OpenAPI integrado
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
 
 ## 📊 Dataset
 
 O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kaggle.com/datasets/marlesson/news-of-the-site-folhauol), que contém notícias do jornal Folha de São Paulo.
 
+<<<<<<< HEAD
 ## 📁 Estrutura do Projeto
 
 classificador-noticias/
@@ -66,6 +78,43 @@ classificador-noticias/
 ├── Dockerfile # Container Docker
 ├── requirements.txt # Dependências
 └── README.md # Este arquivo
+=======
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.9+**: Linguagem principal
+- **Scikit-learn**: Pipeline de ML (TF-IDF + Naive Bayes)
+- **NLTK & spaCy**: Processamento de linguagem natural
+- **FastAPI**: Framework para API REST
+- **Docker**: Containerização e deploy
+- **Pytest**: Testes automatizados
+
+## 📁 Estrutura do Projeto
+classificador-noticias/
+├── data/
+│   └── raw/                    # Dataset original
+├── notebooks/
+│   └── eda.ipynb              # Análise exploratória
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing/
+│   │   ├── __init__.py
+│   │   └── text_processor.py  # Limpeza de texto
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_model.py     # Treinamento do modelo
+│   │   └── classifier.py      # Classe do classificador
+│   └── api/
+│       ├── __init__.py
+│       └── main.py            # API FastAPI
+├── tests/
+│   ├── __init__.py
+│   └── test_api.py            # Testes da API
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+└── .gitignore
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
 
 ## 🚀 Quick Start
 
@@ -78,6 +127,7 @@ classificador-noticias/
 
 1. **Clone o repositório**
 ```bash
+<<<<<<< HEAD
 
 git clone <https://github.com/NegraEmilia71>
 cd classificador-noticias
@@ -153,3 +203,7 @@ LinkedIn | GitHub
 
 8. **📄 Licença**
 Este projeto está sob a licença MIT.
+=======
+git clone <seu-repositorio>
+cd classificador-noticias
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb

@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+<<<<<<< HEAD
 import warnings
 
 # CONFIGURAÇÃO DO PATH =====
@@ -27,6 +28,16 @@ except ImportError as e:
     print(f"❌ Erro ao importar módulos: {e}")
     print(f"📂 Verifique se está executando da raiz do projeto: {ROOT_DIR}")
     sys.exit(1)
+=======
+from sklearn.utils.class_weight import compute_class_weight
+import warnings
+
+# Adicionar diretório raiz ao path
+sys.path.append(str(Path(__file__).parent.parent.parent))
+
+from src.preprocessing.text_processor import TextProcessor
+from src.models.classifier import NewsClassifier
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
 
 warnings.filterwarnings('ignore')
 
@@ -173,11 +184,19 @@ def train_and_evaluate(X_train, X_test, y_train, y_test):
     return classifier, metrics
 
 
+<<<<<<< HEAD
 def save_artifacts(classifier, metrics, output_dir: str = 'src/models'):
     """
     Salva o modelo treinado e métricas de avaliação.
     
     Argumentos:
+=======
+def save_artifacts(classifier, metrics, output_dir: str = 'models'):
+    """
+    Salva o modelo treinado e métricas de avaliação.
+    
+    Args:
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
         classifier: Modelo treinado
         metrics: Métricas de avaliação
         output_dir (str): Diretório de saída
@@ -233,4 +252,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
     
+=======
+  
+>>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
