@@ -31,7 +31,7 @@ O sistema consiste em um classificador de notícias que utiliza técnicas de Pro
 - **Pandas** - Manipulação de dados
 - **Uvicorn** - Servidor ASGI
 - **Pydantic** - Validação de dados
-=======
+
 ## 🎯 Visão Geral
 
 Sistema completo de classificação de notícias que utiliza Processamento de Linguagem Natural (NLP) e Machine Learning para categorizar automaticamente notícias brasileiras baseado em seus títulos. O projeto inclui:
@@ -45,38 +45,38 @@ Sistema completo de classificação de notícias que utiliza Processamento de Li
 
 O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kaggle.com/datasets/marlesson/news-of-the-site-folhauol), que contém notícias do jornal Folha de São Paulo.
 
-<<<<<<< HEAD
 ## 📁 Estrutura do Projeto
-===============
+
+## 📁 Estrutura do Projeto
+
+```plaintext
 classificador-noticias/
-├── data/ # Dados do projeto
-│ └── raw/ 
-│ │    └── new_dataset.csv # Dataset original
-├── notebooks/ # Análises exploratórias
-│ └── eda.ipynb # Notebook de EDA
-├── src/ # Código fonte
-│ ├── preprocessing/ # Processamento de texto
-│ │ └── text_processor.py # Limpeza e tokenização
-│ ├── models/ # Modelos de ML
-│ │ ├── classifier.py # Classificador principal
-│ │ └── train_model.py # Script de treinamento
-│ └── api/ # API REST
-│ └── main.py # FastAPI application
-├── tests/ # Testes unitários
-│ └── test_api.py # Testes da API
-├── tests/ # Testes unitários
-│ └── Include
-│ └── Lib
-│ └── Scripts
-│ └── share
-│ └── .gitignore 
-│ └── pyvenv.cfg
+├── data/                              # Dados do projeto
+│   └── raw/
+│       └── new_dataset.csv            # Dataset original
+├── notebooks/                         # Análises exploratórias
+│   └── eda.ipynb                      # Notebook de EDA
+├── src/                               # Código fonte
+│   ├── preprocessing/                 # Processamento de texto
+│   │   └── text_processor.py          # Limpeza e tokenização
+│   ├── models/                        # Modelos de ML
+│   │   ├── classifier.py              # Classificador principal
+│   │   └── train_model.py             # Script de treinamento
+│   └── api/                           # API REST
+│       └── main.py                    # FastAPI application
+├── tests/                             # Testes unitários
+│   ├── test_api.py                    # Testes da API
+│   ├── Include
+│   ├── Lib
+│   ├── Scripts
+│   └── share
 ├── .gitignore
-├── docker-compose.yml # Orquestração
-├── Dockerfile # Container Docker
-├── requirements.txt # Dependências
-└── README.md # Este arquivo
-=======
+├── docker-compose.yml                 # Orquestração
+├── Dockerfile                         # Container Docker
+├── requirements.txt                   # Dependências
+└── README.md                          # Este arquivo
+```
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python 3.9+**: Linguagem principal
