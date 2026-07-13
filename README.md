@@ -41,7 +41,6 @@ Sistema completo de classificação de notícias que utiliza Processamento de Li
 - **API REST**: Interface para classificação em tempo real
 - **Containerização**: Docker para deploy simplificado
 - **Documentação**: Swagger/OpenAPI integrado
->>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
 
 ## 📊 Dataset
 
@@ -49,7 +48,7 @@ O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kagg
 
 <<<<<<< HEAD
 ## 📁 Estrutura do Projeto
-
+===============
 classificador-noticias/
 ├── data/ # Dados do projeto
 │ └── raw/ 
@@ -87,34 +86,6 @@ classificador-noticias/
 - **FastAPI**: Framework para API REST
 - **Docker**: Containerização e deploy
 - **Pytest**: Testes automatizados
-
-## 📁 Estrutura do Projeto
-classificador-noticias/
-├── data/
-│   └── raw/                    # Dataset original
-├── notebooks/
-│   └── eda.ipynb              # Análise exploratória
-├── src/
-│   ├── __init__.py
-│   ├── preprocessing/
-│   │   ├── __init__.py
-│   │   └── text_processor.py  # Limpeza de texto
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── train_model.py     # Treinamento do modelo
-│   │   └── classifier.py      # Classe do classificador
-│   └── api/
-│       ├── __init__.py
-│       └── main.py            # API FastAPI
-├── tests/
-│   ├── __init__.py
-│   └── test_api.py            # Testes da API
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── README.md
-└── .gitignore
->>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
 
 ## 🚀 Quick Start
 
@@ -206,4 +177,3 @@ Este projeto está sob a licença MIT.
 =======
 git clone <seu-repositorio>
 cd classificador-noticias
->>>>>>> 4147398bb0b3a4801dbe4414a0042c3f05c4caeb
