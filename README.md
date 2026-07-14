@@ -166,6 +166,3 @@ LinkedIn | GitHub
 
 8. 📄 Licença
 Este projeto está sob a licença MIT.
-=======
-git clone <https://github.com/NegraEmilia71/>
-cd classificador-noticias
