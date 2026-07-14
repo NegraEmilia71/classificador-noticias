@@ -92,11 +92,11 @@ classificador-noticias/
 
 ### Instalação Local
 ```bash
-1. **Clone o repositório**
+1. Clone o repositório
 git clone <https://github.com/NegraEmilia71>
 cd classificador-noticias
 
-2. **📖 Documentação da API**
+2. 📖 Documentação da API
 Acesse a documentação interativa:
 
 Swagger UI: http://127.0.0.1:8000/docs
@@ -110,7 +110,7 @@ GET	/modelo/info	Informações do modelo
 POST	/classificar	Classificar uma notícia
 POST	/classificar/lote	Classificar em lote
 
-3. **🧪 Exemplo de Uso**
+3. 🧪 Exemplo de Uso
 Classificar uma notícia
 bash
 curl -X POST "http://127.0.0.1:8000/classificar" \
@@ -140,7 +140,7 @@ curl -X POST "http://127.0.0.1:8000/classificar/lote" \
        ]
      }'
 
-4. **🐳 Docker**
+4. 🐳 Dockerfile
 Build da imagem
 bash
 docker build -t classificador-noticias .
@@ -148,12 +148,11 @@ Executar o container
 bash
 docker run -p 8000:8000 classificador-noticias
 
-5. **✅ Testes**
+5. ✅ Testes
 bash
 pytest tests/
 
-6. **📊 Performance do Modelo**
-
+6. 📊 Performance do Modelo
 Métrica	Valor
 Acurácia	0.85
 F1-Score Macro	0.83
@@ -161,11 +160,11 @@ F1-Score Ponderado	0.86
 Categorias	10
 Os resultados podem variar conforme o dataset utilizado.
 
-7. **👩‍💻 Autora**
+7. 👩‍💻 Autora
 Joyce Emília 
 LinkedIn | GitHub
 
-8. **📄 Licença**
+8. 📄 Licença
 Este projeto está sob a licença MIT.
 =======
 git clone <https://github.com/NegraEmilia71/>
