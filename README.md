@@ -103,7 +103,7 @@ classificador-noticias/
   ```
 
 ### 📊 Material de Apresentação
-- **Slides da apresentação:** [Link para o Google Slides/PowerPoint/PDF]
+- **Relatório Executivo:** [https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e0d7a21e-c247-457c-87ba-ce18f8f6c98c]
 
 ### Instalação Local
 ```bash
