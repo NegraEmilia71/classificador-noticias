@@ -46,7 +46,6 @@ Sistema completo de classificação de notícias que utiliza Processamento de Li
 O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kaggle.com/datasets/marlesson/news-of-the-site-folhauol), que contém notícias do jornal Folha de São Paulo.
 
 ## 📁 Estrutura do Projeto
-
 ```plaintext
 classificador-noticias/
 ├── data/                              # Dados do projeto
@@ -92,9 +91,8 @@ classificador-noticias/
 - Dataset na pasta `data/raw/`
 
 ### Instalação Local
-
-1. **Clone o repositório**
 ```bash
+1. **Clone o repositório**
 git clone <https://github.com/NegraEmilia71>
 cd classificador-noticias
 
