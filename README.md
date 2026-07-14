@@ -47,8 +47,6 @@ O modelo foi treinado com o dataset [News of the site FolhaUOL](https://www.kagg
 
 ## 📁 Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
-
 ```plaintext
 classificador-noticias/
 ├── data/                              # Dados do projeto
@@ -97,8 +95,6 @@ classificador-noticias/
 
 1. **Clone o repositório**
 ```bash
-<<<<<<< HEAD
-
 git clone <https://github.com/NegraEmilia71>
 cd classificador-noticias
 
@@ -174,5 +170,5 @@ LinkedIn | GitHub
 8. **📄 Licença**
 Este projeto está sob a licença MIT.
 =======
-git clone <seu-repositorio>
+git clone <https://github.com/NegraEmilia71/>
 cd classificador-noticias
