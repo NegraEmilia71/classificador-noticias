@@ -90,9 +90,24 @@ classificador-noticias/
 - Docker e Docker Compose (opcional)
 - Dataset na pasta `data/raw/`
 
+##📎 Links e Materiais
+### 🔗 Acesso ao Repositório
+- **URL do repositório:** [https:/github.com/NegraEmilia71/classificador-noticias] (https:/github.com/NegraEmilia71/classificador-noticias)
+- **Clone via HTTPS:** 
+  ```bash
+  git clone https:/github.com/NegraEmilia71/classificador-noticias.git
+  ```
+- **Clone via SSH:**
+  ```bash
+  git clone git@github.com:NegraEmilia71/classificador-noticias.git
+  ```
+
+### 📊 Material de Apresentação
+- **Slides da apresentação:** [Link para o Google Slides/PowerPoint/PDF]
+
 ### Instalação Local
 ```bash
-1. Clone o repositório
+1. 🎯 Clone o repositório
 git clone <https://github.com/NegraEmilia71>
 cd classificador-noticias
 
